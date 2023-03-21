@@ -1,0 +1,6 @@
+¿Que es un RRD?
+Conjunto de datos distribuidos resilientes (RDD)
+son colecciones de elementos tolerantes a fallas que se pueden distribuir entre varios nodos,
+en un clúster y trabajar en paralelo.
+Los RDD son una estructura fundamental en Apache Spark.
+Interesente, continuemos....

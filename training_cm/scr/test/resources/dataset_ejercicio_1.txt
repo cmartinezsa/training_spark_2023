@@ -1,0 +1,4 @@
+Apache Spark es un motor unificado de analíticas para procesar datos a gran escala
+que integra módulos para SQL, streaming, aprendizaje automático y procesamiento de grafos.
+Spark se puede ejecutar de forma independiente o en Apache Hadoop, Apache Mesos, Kubernetes, la nube y distintas fuentes de datos.
+En este curso vamos a trabajar trabajar con los modulos de Spark SQL, usando DataFrame.
