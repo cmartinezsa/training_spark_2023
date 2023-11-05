@@ -1,7 +1,7 @@
 from pyspark.sql.types import StructType
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType, DateType
 
-
+#clase de constantes que se utilizan en el proyecto
 class Constants:
     EMTPY_SCHEMA = StructType([])
     FORMAT_DATE_SIMPLE = 'yyyy-MM-dd'
@@ -11,6 +11,7 @@ class Constants:
     DELIMITED_PIPE = ','
     DISPLAY_TXT_DECORED = " ******* "
 
+    #esquema tabla personas
     JSON_SCHEMA_PEOPLE = StructType(
         [
             StructField('color', StringType(), True),
@@ -23,6 +24,6 @@ class Constants:
     RRD_TO_DF_SCHEMA = StructType(
         [
             StructField('depto', StringType(), True),
-            StructField('employees', IntegerType(), True)
+            
         ]
     )
